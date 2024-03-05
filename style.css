@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+
+  background: linear-gradient(180deg,  rgba(277, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto 0;
+  padding-top: 65px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+  
+  nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+ul li a {
+  color: #1F1534;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+ul, h1, button {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: black;
+
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+section p {
+  color: #7D7987;
+  line-height: 28px;
+  font-size: 14px;
+
+  margin-bottom: 40px 0;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  text-transform: uppercase;
+
+  background-color: #69B99D;
+  padding: 10px 32px 15px;
+  border-radius: 4px;
+  border: 0;
+
+
+  color: white;
+  transition: .3s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #5A9482;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+
+  line-height: 28px;
+  font-size: 14px;
+
+  margin-top: 80px;
+
+}
+
+footer a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#balls {
+  position: fixed;
+
+  bottom: 0px;
+  right: 0px;
+}
